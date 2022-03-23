@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Godle</title>
+  <meta name="description" content="A Christian word game.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="Godle">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bluyam.github.io"> <!--TODO: update to page url -->
+  <meta property="og:description" content="A Christian word game.">
+  <meta property="og:image" content="image.png"> <!--TODO: update image -->
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <!-- your content here... -->
+  <header>
+    <help-icon></help-icon>
+    <faux-logo>Godle</faux-logo>
+    <stats-icon></stats-icon>
+    <settings-icon></settings-icon>
+  </header>
+  <game-board answer="getRandomWord()"></game-board>
+  <key-board></key-board>
+  <script src="words.js"></script>
+  <script src="gameboard.js"></script>
+  <script src="guessInput.js"></script>
+  <script src="letterTile.js"></script>
+  <script src="keyBoard.js"></script>
+</body>
+</html>
